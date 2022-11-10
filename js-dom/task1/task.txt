@@ -1,0 +1,12 @@
+bir dene div yaradirsiz
+div-in class="container" ichindeki yazi olur container
+
+<div class = "container">Container</div>
+
+divin olchusu, width =200px, height =200px
+background color = green;
+
+button yaradirsiz
+<button>Change color</button>
+
+button-a basildiqda divin rengi olur blue 

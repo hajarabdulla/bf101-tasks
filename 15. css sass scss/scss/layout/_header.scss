@@ -1,0 +1,16 @@
+// @use "./mixin";
+
+%message-error {
+  background-color: yellow;
+  color: red;
+}
+
+header {
+  //   background-color: $backgroundColor;
+  @include myFlexBox(10px, row-reverse);
+  @extend %message-error;
+}
+
+.buttons {
+  @include myFlexBox(20px, row);
+}

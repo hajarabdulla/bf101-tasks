@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body{
+    font-size: ;
+} */
+
+/* .background { */
+/* width: 500px; */
+/* height: 700px; */
+/* background-repeat: no-repeat; */
+/* background-position: 50% 100%; */
+/* background-color: indianred; */
+/* background-attachment: fixed; */
+/* background-size: cover; */
+/* background-color: hsl(hue, saturation, lightness); */
+/* background-color: hsla(175, 67%, 45%, 0.502); */
+/* background-image: url("https://images.unsplash.com/photo-1668302766145-bc8bc49870ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"); */
+/* background: linear-gradient(to bottom left, red, yellow, aqua, green); */
+/* background: linear-gradient(red, orange, yellow, green, aqua, blue, purple); */
+/* background: linear-gradient(
+    red 50%,
+    orange 50%,
+    yellow 50%,
+    green 50%,
+    blue 50%,
+    indigo 50%,
+    violet 50%
+  ); */
+/* } */
+
+/* p {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px;
+} */
+
+body {
+  background-color: #000;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  padding: 10px;
+  /* yuxaridan, ashagidan, sagdan, soldan */
+  /* yuxaridan ve ashagidan */ /* sagdan soldan*/
+  /* yuxari, sag, ashagi , sol */
+  border: 2px dotted #fff;
+  /* border-radius: 50%; */
+  /* border-top-left-radius: 20px; */
+  /* border-bottom-right-radius: 20px; */
+  outline: 10px solid green;
+  margin: 20px;
+}

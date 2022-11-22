@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .parent { */
+/* width: 500px;
+  height: 500px;
+  display: flex;
+  gap: 10px;
+  background-color: yellowgreen;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: slategrey;
+}
+
+#child1 {
+  position: sticky;
+  background-color: red;
+  z-index: 9999;
+  top: 20px;
+  margin-top: 20px;
+} */
+
+/* #child2 {
+  position: relative;
+  top: 20px;
+}
+
+#child3 {
+  position: absolute;
+  background-color: blue;
+  top: 20px;
+} */
+
+/* span {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+} */
+
+/* p::first-line {
+  background-color: red;
+} */
+
+p::before {
+  content: "😂";
+}
+
+p::after {
+  content: "Hello";
+}
+
+/* ::selection {
+  background-color: aquamarine;
+  color: red;
+} */
+/* 
+nav {
+  margin: 20px;
+}
+
+::marker {
+  color: red;
+  font-size: 20px;
+} */
+
+/* .button1:hover {
+  background-color: honeydew;
+  padding: 10px;
+  border: 2px dashed hotpink;
+}
+
+.button2:focus {
+  background-color: honeydew;
+  padding: 10px;
+  border: 2px dashed hotpink;
+}
+
+.button3:active {
+  background-color: honeydew;
+  padding: 10px;
+  border: 2px dashed hotpink;
+} */
+
+/* p {
+  display: none;
+}
+
+.show-text:hover + p {
+  display: block;
+} */
+
+/* 
+.box {
+  width: 200px;
+  height: 600px;
+  background-color: blue;
+  overflow: auto;
+} */

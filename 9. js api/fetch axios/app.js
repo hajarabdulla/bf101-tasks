@@ -6,6 +6,7 @@
 const container = document.querySelector(".container");
 
 let url = "https://picsum.photos/v2/list";
+
 axios.get(url).then((res) => {
   let user = res.data;
 

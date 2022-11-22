@@ -1,0 +1,56 @@
+// Mixin for custom buttons
+@mixin button(
+  $border-radius,
+  $back-color,
+  $text-color,
+  $padding-size,
+  $font-weight,
+  $font-size,
+  $line-height,
+  $text-transform
+) {
+  border-radius: $border-radius;
+  background-color: $back-color;
+  color: $text-color;
+  padding: $padding-size;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  border: none;
+  text-align: center;
+  text-transform: $text-transform;
+  cursor: pointer;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+}
+
+// Mixin for typography styles
+@mixin typo($weight, $size, $height, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+
+@mixin flexbox($align, $justify, $direction) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+// Mixin for icon buttons
+@mixin icon($width, $height, $color) {
+  border-radius: 50%;
+  width: $width;
+  height: $height;
+  border: none;
+  background-color: $color;
+  @include flexbox(center, center, row);
+}
+
+// Mixin for media query
+@mixin lg {
+  @media (max-width: map-get($media, "lg")) {
+    @content;
+  }
+}

@@ -1,0 +1,108 @@
+/* div {
+  color: yellow;
+  background-color: blueviolet;
+} */
+
+/* * {
+  color: brown;
+}
+
+div {
+  background-color: blue;
+} */
+/* 
+.main-title {
+  background-color: crimson;
+} */
+
+/* #heading {
+  background-color: yellowgreen;
+} */
+
+/* div .box {
+  background-color: red;
+} */
+
+/* div > .box {
+  background-color: red;
+} */
+
+/*Descendant selector  */
+/* #container .box {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: red;
+} */
+
+/* Child selector */
+/* #container > .box {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: red;
+} */
+
+/* Attribute selector */
+/* input[type="text"] {
+  background-color: red;
+} */
+
+/* h2 ~ p {
+  color: pink;
+  background-color: black;
+} */
+
+/* Adjacent sibling selector */
+/* p + p {
+  color: pink;
+  background-color: black;
+} */
+
+/* #main {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+} */
+/* 100 */
+
+/* div { */
+/* width: 100px; */
+/* height: 100px; */
+/* background-color: black; */
+/* background-color: rgb(50, 100, 100); */
+
+/* background-color: red; */
+
+/* background-color: rgb(29, 29, 79); */
+/* } */
+
+/* 1 */
+
+/* .main-section {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+} */
+
+/* 10 */
+
+/* inline -1000 */
+
+/* p {
+  font-size: 24px; */
+/* font-style: italic; */
+/* font-weight: 600; */
+/* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+/* font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-decoration: line-through dashed red;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+} */
+
+/* #yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+} */

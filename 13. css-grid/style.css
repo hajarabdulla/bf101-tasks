@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 20px;
+} */
+
+/* 
+.wrapper {
+  font-size: 20px;
+}
+
+.em {
+  font-size: 1em;
+}
+
+.rem {
+  font-size: 1rem;
+} */
+
+/* body {
+  font-size: 20px;
+  height: 400px;
+}
+
+.box {
+  width: 50%;
+  height: 100vh;
+  background-color: red;
+} */
+
+/* 
+.inline {
+  display: inline;
+  background-color: cadetblue;
+  width: 200px;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: cadetblue;
+  width: 100%;
+}
+
+.block {
+  display: block;
+  background-color: cadetblue;
+  width: 200px;
+} */
+
+/* ! Grid */
+
+/* main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 300px; */
+/* gap: 20px; */
+/* row-gap: 10px;
+  column-gap: 10px; */
+/* } */
+
+/* #box1 {
+  background-color: red; */
+/* grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+
+/* grid-column: 2/3;
+  grid-row: 1/3;
+} */
+
+/* #box2 {
+  background-color: yellow;
+}
+
+#box3 {
+  background-color: coral;
+} */
+
+/* main {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 10px;
+}
+
+#box1 {
+  background-color: red;
+  grid-row: 1/3;
+}
+
+#box2 {
+  background-color: yellow;
+}
+
+#box3 {
+  background-color: coral;
+}
+
+#box4 {
+  background-color: green;
+  grid-column: 1/3;
+} */
+
+main {
+  display: grid;
+  grid-template-areas:
+    "box1 box1 box1"
+    "box2 box2 ."
+    "box3 . .";
+}
+
+#box1 {
+  background-color: red;
+  grid-area: box1;
+}
+
+#box2 {
+  background-color: yellow;
+  grid-area: box2;
+}
+
+#box3 {
+  background-color: coral;
+  grid-area: box3;
+}
+
+/* #box4 {
+  background-color: green;
+  grid-area: box4;
+} */

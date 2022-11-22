@@ -1,0 +1,34 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas:
+    "header header header"
+    "nav main ads"
+    "footer footer footer";
+}
+
+.item-header {
+  background-color: blue;
+  grid-area: header;
+}
+
+.item-nav {
+  background-color: yellow;
+  grid-area: nav;
+}
+
+.item-main {
+  background-color: green;
+  grid-area: main;
+}
+
+.item-ads {
+  background-color: crimson;
+  grid-area: ads;
+}
+
+.item-footer {
+  background-color: coral;
+  grid-area: footer;
+}

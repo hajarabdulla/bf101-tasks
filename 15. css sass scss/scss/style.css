@@ -1,20 +1,15 @@
-header {
-  background-color: yellow;
-  color: red;
+.box {
+  background-color: red;
+  width: 100px;
+  height: 200px;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-direction: row-reverse;
+.box {
+  font-size: 40px;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  flex-direction: row;
+@media (max-width: 576px) {
+  .box {
+    background-color: coral;
+  }
 }/*# sourceMappingURL=style.css.map */

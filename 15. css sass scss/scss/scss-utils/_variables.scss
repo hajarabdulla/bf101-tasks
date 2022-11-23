@@ -4,3 +4,28 @@ $defaultColor: wheat;
 
 // Font size
 $defaultSize: 16px;
+
+// $sizes: 100px, 150px, 200px;
+
+// @each $size in $sizes {
+//   .icon-#{$size} {
+//     // font-size: $size;
+//     width: $size;
+//     height: $size;
+//     background-color: red;
+//   }
+// }
+
+// @mixin checkCircle($circle: false) {
+//   width: 100px;
+//   height: 100px;
+//   background-color: cadetblue;
+
+//   @if $circle {
+//     border-radius: 50%;
+//   }
+// }
+
+// .box {
+//   @include checkCircle(true);
+// }

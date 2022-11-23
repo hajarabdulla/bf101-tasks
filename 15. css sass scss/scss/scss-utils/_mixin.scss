@@ -5,3 +5,28 @@
   gap: $gap-size;
   flex-direction: $direction;
 }
+
+// mixin for inputs
+// @mixin input(){
+//     border:
+//     font-size:
+//     padding:
+//     color:
+//     background-color:
+// }
+
+// mixin for checkbox
+@mixin checkboxStyle() {
+}
+
+@mixin sm {
+  @media (max-width: map-get($media, "sm")) {
+    @content;
+  }
+}
+
+.box {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+}

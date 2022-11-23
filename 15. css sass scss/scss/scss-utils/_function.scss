@@ -1,0 +1,7 @@
+@function doubleSize($size) {
+  @return $size * 2;
+}
+
+.box {
+  font-size: doubleSize(20px);
+}

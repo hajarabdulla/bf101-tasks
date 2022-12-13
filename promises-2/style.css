@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    color: #2c6669;
+}
+
+select {
+    margin: 10px auto;
+}

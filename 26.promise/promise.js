@@ -1,6 +1,6 @@
 // const promise = new Promise((resolve, reject) => {
 //   setTimeout(() => {
-//     resolve("Resolved");
+//     // resolve("Resolved");
 //     reject("Rejected");
 //   }, 1500);
 // });
@@ -14,7 +14,7 @@
 //     console.log("This is finally code block");
 //   });
 
-// const server = false;
+// const server = true;
 
 // const promise = new Promise((res, rej) => {
 //   if (server) {
